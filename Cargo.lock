@@ -397,11 +397,10 @@ dependencies = [
 
 [[package]]
 name = "dprint-core"
-version = "0.67.4"
+version = "0.69.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c1d827947704a9495f705d6aeed270fa21a67f825f22902c28f38dc3af7a9ae"
+checksum = "7554bfc77a03c35c5581d5f390b7f102c501e37841f7f43d29dd54a0b3c2284d"
 dependencies = [
- "anyhow",
  "async-trait",
  "bumpalo",
  "crossbeam-channel",
@@ -413,6 +412,7 @@ dependencies = [
  "rustc-hash",
  "serde",
  "serde_json",
+ "thiserror 2.0.18",
  "tokio",
  "tokio-util",
  "unicode-width 0.2.2",
